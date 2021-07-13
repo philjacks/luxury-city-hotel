@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Linden+Hill&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+$primary-color: #0b132b;
+$secondary-color: #002855;
+
+* {
+  .navbar-brand {
+    font-size: 2.5rem;
+    font-family: "Linden Hill", serif;
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background: url(../img/night-city.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+
+  .nav-cont {
+    width: 100%;
+    background-color: $primary-color;
+    position: fixed;
+    z-index: 3;
+  }
+}
