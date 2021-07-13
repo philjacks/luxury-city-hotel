@@ -102,4 +102,38 @@ footer .copyright {
   background-color: #002855;
   padding: 1rem;
 }
+
+@media screen and (max-width: 1050px) {
+  .parallax {
+    height: 30vh;
+  }
+  .carousel-inner .caption {
+    width: 80%;
+    position: absolute;
+    top: 4rem;
+  }
+  .carousel-inner .caption h5 {
+    font-size: 2rem;
+  }
+  .carousel-inner .caption p {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header nav .navbar-brand {
+    font-size: 2.2rem;
+  }
+  .parallax {
+    height: 20vh;
+  }
+  .carousel-inner .caption {
+    width: 70%;
+    position: absolute;
+    top: 1rem;
+  }
+  .carousel-inner .caption h5 {
+    font-size: 1.6rem;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
