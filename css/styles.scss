@@ -60,3 +60,11 @@ header {
     right: 2rem;
   }
 }
+
+.parallax {
+  height: 50vh;
+  background-image: url("/img/bridge.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}

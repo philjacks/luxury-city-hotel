@@ -53,4 +53,12 @@ header .nav-cont {
 .carousel-inner .caption2 {
   right: 2rem;
 }
+
+.parallax {
+  height: 50vh;
+  background-image: url("/img/bridge.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
 /*# sourceMappingURL=styles.css.map */
