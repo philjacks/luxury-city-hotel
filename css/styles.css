@@ -31,4 +31,26 @@ header .nav-cont {
   font-size: 6rem;
   color: #002855;
 }
+
+.carousel-inner .caption {
+  width: 70%;
+  position: absolute;
+  top: 11rem;
+}
+
+.carousel-inner .caption h5 {
+  font-size: 4rem;
+}
+
+.carousel-inner .caption p {
+  font-size: 1.4rem;
+}
+
+.carousel-inner .caption1 {
+  left: 6rem;
+}
+
+.carousel-inner .caption2 {
+  right: 2rem;
+}
 /*# sourceMappingURL=styles.css.map */

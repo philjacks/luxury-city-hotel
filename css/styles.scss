@@ -37,3 +37,26 @@ header {
     color: $secondary-color;
   }
 }
+
+.carousel-inner {
+  .caption {
+    width: 70%;
+    position: absolute;
+    top: 11rem;
+
+    h5 {
+      font-size: 4rem;
+    }
+
+    p {
+      font-size: 1.4rem;
+    }
+  }
+
+  .caption1 {
+    left: 6rem;
+  }
+  .caption2 {
+    right: 2rem;
+  }
+}
