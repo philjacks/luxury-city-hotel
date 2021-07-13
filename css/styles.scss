@@ -28,3 +28,12 @@ header {
     z-index: 3;
   }
 }
+
+#cards {
+  background-color: #daf5fe;
+
+  .material-icons {
+    font-size: 6rem;
+    color: $secondary-color;
+  }
+}

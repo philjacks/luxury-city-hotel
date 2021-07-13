@@ -22,4 +22,13 @@ header .nav-cont {
   position: fixed;
   z-index: 3;
 }
+
+#cards {
+  background-color: #daf5fe;
+}
+
+#cards .material-icons {
+  font-size: 6rem;
+  color: #002855;
+}
 /*# sourceMappingURL=styles.css.map */
